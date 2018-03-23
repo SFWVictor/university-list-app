@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="UniversityListApp.UniversityDetailsPage">
+    <ContentPage.Content>
+        <ScrollView Orientation="Vertical">
+            <Label Text="{Binding Name}" FontSize="Medium" FontAttributes="Bold" VerticalOptions="Start"/>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Country:" FontSize="Medium" HorizontalOptions="Fill"/>
+                <Label Text="{Binding Country}" FontSize="Medium" FontAttributes="Bold"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Students:" FontSize="Medium" HorizontalOptions="Fill"/>
+                <Label Text="{Binding Students}" FontSize="Medium" FontAttributes="Bold" />
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Founded in" FontSize="Medium" HorizontalOptions="Fill"/>
+                <Label Text="{Binding Founded}" FontSize="Medium" FontAttributes="Bold" />
+            </StackLayout>
+            <Label Text="{Binding Description}" HorizontalOptions="FillAndExpand"/>
+            <Button Text="Read more" Pressed="ButtonLink_Pressed" HorizontalOptions="FillAndExpand" VerticalOptions="End"/>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
