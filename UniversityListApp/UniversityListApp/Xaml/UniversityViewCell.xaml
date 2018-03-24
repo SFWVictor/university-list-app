@@ -1,15 +1,13 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ViewCell xmlns="http://xamarin.com/schemas/2014/forms" 
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:UniversityListApp.Extensions"
              x:Class="UniversityListApp.UniversityViewCell"
-            Height="100">
+             Height="100">
     <ViewCell.View>
-        <StackLayout BackgroundColor="#eee"
+        <StackLayout BackgroundColor="#eee" Margin="10"
                      Orientation="Horizontal">
-            <!--<ImageCell>
-
-            </ImageCell>-->
-            <BoxView Color="Blue" Margin="5" WidthRequest="100" HeightRequest="80"/>
+            <Image Source="{Binding SmallImage}" WidthRequest="80" HeightRequest="380" />
             <StackLayout Orientation="Vertical"
                          VerticalOptions="FillAndExpand">
                 <Label Text="{Binding Name}"

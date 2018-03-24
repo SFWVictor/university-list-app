@@ -5,10 +5,8 @@
     using System.Reflection;
     using Newtonsoft.Json;
 
-    public static class UniversityJsonDeserializer
+    public static class JsonDeserializer
     {
-        private const string jsonFileName = "universities.json";
-
         public static List<T> DeserializeObjects<T>(StreamReader reader)
             where T : class
         {
@@ -17,10 +15,10 @@
             return objects;
         }
 
-        public static List<T> LoadFromJson<T>()
+        public static List<T> LoadFromJson<T>(string jsonFileName)
             where T : class
         {
-            var assembly = IntrospectionExtensions.GetTypeInfo(typeof(UniversityJsonDeserializer)).Assembly;
+            var assembly = IntrospectionExtensions.GetTypeInfo(typeof(JsonDeserializer)).Assembly;
             Stream stream = assembly.GetManifestResourceStream($"{nameof(UniversityListApp)}.{jsonFileName}");
             List<T> objects = new List<T>();
 

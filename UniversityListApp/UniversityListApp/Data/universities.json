@@ -5,8 +5,8 @@
     "Founded": 1861,
     "Country": "U.S.",
     "Description": "The Massachusetts Institute of Technology (MIT) is a private research university in Cambridge, Massachusetts, United States. Founded in 1861 in response to the increasing industrialization of the United States, MIT adopted a European polytechnic university model and stressed laboratory instruction in applied science and engineering. The Institute is traditionally known for its research and education in the physical sciences and engineering, but more recently in biology, economics, linguistics and management as well. MIT is often cited among the world's best universities by various organizations. It was ranked as the world's top university for 6 years in a row by QS. As of 2017, 88 Nobel laureates, 52 National Medal of Science recipients, 65 Marshall Scholars, 45 Rhodes Scholars, 38 MacArthur Fellows, 34 astronauts, 21 Turing award winners, 16 Chief Scientists of the U.S. Air Force and 6 Fields Medalists have been affiliated with MIT. The school has a strong entrepreneurial culture and the aggregated revenues of companies founded by MIT alumni would rank as the eleventh-largest economy in the world. MIT is a member of the Association of American Universities (AAU).",
-    "Small image": "mit_seal",
-    "Large image": "mit_overview",
+    "Small image name": "mit_seal.png",
+    "Large image name": "mit_overview.jpg",
     "Link": "https://en.wikipedia.org/wiki/Massachusetts_Institute_of_Technology"
   },
   {
@@ -15,8 +15,8 @@
     "Founded": 1891,
     "Country": "U.S.",
     "Description": "Stanford University (officially Leland Stanford Junior University, colloquially the Farm) is a private research university in Stanford, California, in Silicon Valley, 20 miles (30 km) outside of San Jose. Because of its academic strength, wealth, and proximity to Silicon Valley, Stanford is often cited as one of the world's most prestigious universities. The university was founded in 1885 by Leland and Jane Stanford in memory of their only child, Leland Stanford Jr., who had died of typhoid fever at age 15 the previous year. Stanford was a former Governor of California and U.S. Senator; he made his fortune as a railroad tycoon. The school admitted its first students on October 1, 1891, as a coeducational and non-denominational institution.",
-    "Small image": "stanford_seal",
-    "Large image": "stanford_overview",
+    "Small image name": "stanford_seal.png",
+    "Large image name": "stanford_overview.jpg",
     "Link": "https://en.wikipedia.org/wiki/Stanford_University"
   },
   {
@@ -25,8 +25,8 @@
     "Founded": 1636,
     "Country": "U.S.",
     "Description": "Harvard University is a private Ivy League research university in Cambridge, Massachusetts. Established in 1636 and named for clergyman John Harvard (its first benefactor), its history, influence, and wealth have made it one of the world's most prestigious universities. Harvard is the United States' oldest institution of higher learning, and the Harvard Corporation (formally, the President and Fellows of Harvard College) is its first chartered corporation. Although never formally affiliated with any denomination, the early College primarily trained Congregational and Unitarian clergy. Its curriculum and student body were gradually secularized during the 18th century, and by the 19th century, Harvard had emerged as the central cultural establishment among Boston elites. Following the American Civil War, President Charles W. Eliot's long tenure (1869–1909) transformed the college and affiliated professional schools into a modern research university; Harvard was a founding member of the Association of American Universities in 1900. James Bryant Conant led the university through the Great Depression and World War II and began to reform the curriculum and liberalize admissions after the war. The undergraduate college became coeducational after its 1977 merger with Radcliffe College.",
-    "Small image": "harvard_seal",
-    "Large image": "harvard_overview",
+    "Small image name": "harvard_seal.png",
+    "Large image name": "harvard_overview.jpg",
     "Link": "https://en.wikipedia.org/wiki/Harvard_University"
   },
   {
@@ -35,8 +35,8 @@
     "Founded": 1891,
     "Country": "U.S.",
     "Description": "The California Institute of Technology (abbreviated Caltech) is a private doctorate-granting university located in Pasadena, California, United States. Although founded as a preparatory and vocational school by Amos G. Throop in 1891, the college attracted influential scientists such as George Ellery Hale, Arthur Amos Noyes and Robert Andrews Millikan in the early 20th century. The vocational and preparatory schools were disbanded and spun off in 1910 and the college assumed its present name in 1921. In 1934, Caltech was elected to the Association of American Universities and the antecedents of NASA's Jet Propulsion Laboratory, which Caltech continues to manage and operate, were established between 1936 and 1943 under Theodore von Kármán. The university is one among a small group of institutes of technology in the United States which is primarily devoted to the instruction of technical arts and applied sciences.",
-    "Small image": "caltech_seal",
-    "Large image": "caltech_overview",
+    "Small image name": "caltech_seal.png",
+    "Large image name": "caltech_overview.png",
     "Link": "https://en.wikipedia.org/wiki/California_Institute_of_Technology"
   },
   {
@@ -45,8 +45,8 @@
     "Founded": 1209,
     "Country": "United Kingdom",
     "Description": "The University of Cambridge (informally Cambridge University) is a collegiate public research university in Cambridge, England. Founded in 1209 and granted a royal charter by King Henry III in 1231, Cambridge is the second-oldest university in the English-speaking world and the world's fourth-oldest surviving university. The university grew out of an association of scholars who left the University of Oxford after a dispute with the townspeople. The two medieval universities share many common features and are often referred to jointly as \"Oxbridge\". The history and influence of the University of Cambridge has made it one of the most prestigious universities in the world.",
-    "Small image": "cambridge_seal",
-    "Large image": "cambridge_overview",
+    "Small image name": "cambridge_seal.png",
+    "Large image name": "cambridge_overview.jpg",
     "Link": "https://en.wikipedia.org/wiki/University_of_Cambridge"
   },
   {
@@ -55,8 +55,8 @@
     "Founded": 1096,
     "Country": "United Kingdom",
     "Description": "The University of Oxford (formally The Chancellor Masters and Scholars of the University of Oxford; informally Oxford University or simply Oxford) is a prestigious and highly selective collegiate research university located in Oxford, England. It has no known date of foundation, but there is evidence of teaching as far back as 1096, making it the oldest university in the English-speaking world and the world's second-oldest university in continuous operation. It grew rapidly from 1167 when Henry II banned English students from attending the University of Paris. After disputes between students and Oxford townsfolk in 1209, some academics fled north-east to Cambridge where they established what became the University of Cambridge. The two \"ancient universities\" are frequently jointly referred to as \"Oxbridge\".",
-    "Small image": "oxford_coat_of_arms",
-    "Large image": "oxford_overview",
+    "Small image name": "oxford_coat_of_arms.png",
+    "Large image name": "oxford_overview.jpg",
     "Link": "https://en.wikipedia.org/wiki/University_of_Oxford"
   },
   {
@@ -65,8 +65,8 @@
     "Founded": 1826,
     "Country": "United Kingdom",
     "Description": "University College London (UCL) is a public research university in London, England, and a constituent college of the federal University of London. It is the third largest university in the United Kingdom by total enrollment, and the largest by postgraduate enrollment. Established in 1826 as London University by founders inspired by the radical ideas of Jeremy Bentham, UCL was the first university institution to be established in London, and the first in England to be entirely secular and to admit students regardless of their religion. UCL also makes the contested claims of being the third-oldest university in England and the first to admit women. In 1836 UCL became one of the two founding colleges of the University of London, which was granted a royal charter in the same year. It has grown through mergers, including with the Institute of Neurology (in 1997), the Royal Free Hospital Medical School (in 1998), the Eastman Dental Institute (in 1999), the School of Slavonic and East European Studies (in 1999), the School of Pharmacy (in 2012) and the Institute of Education (in 2014).",
-    "Small image": "ucl_logo",
-    "Large image": "ucl_overview",
+    "Small image name": "ucl_logo.jpg",
+    "Large image name": "ucl_overview.jpg",
     "Link": "https://en.wikipedia.org/wiki/University_College_London"
   },
   {
@@ -75,8 +75,8 @@
     "Founded": 1845,
     "Country": "United Kingdom",
     "Description": "Imperial College London is a public research university located in London, United Kingdom. Its founder, Prince Albert, envisioned an area composed of the Victoria and Albert Museum, Natural History Museum, Royal Albert Hall, and the Imperial Institute. His wife, Queen Victoria, laid the foundation stone for the Imperial Institute in 1888. Imperial College London was granted royal charter in 1907. In the same year, the college joined the University of London, before leaving it a century later. Through merging with several historic medical schools, the curriculum expanded to include medicine. In 2004, Queen Elizabeth II opened the Imperial College Business School.",
-    "Small image": "imperial_college_crest",
-    "Large image": "imperial_college_overview",
+    "Small image name": "imperial_college_crest.png",
+    "Large image name": "imperial_college_overview.jpg",
     "Link": "https://en.wikipedia.org/wiki/Imperial_College_London"
   },
   {
@@ -85,8 +85,8 @@
     "Founded": 1856,
     "Country": "U.S.",
     "Description": "The University of Chicago (UChi, U of C, Chicago, or UChicago) is a private research university in Chicago, Illinois. It holds top-ten positions in various national and international rankings. The university is composed of the College, various graduate programs and interdisciplinary committees organized into five academic research divisions and seven professional schools. Beyond the arts and sciences, Chicago is also well known for its professional schools, which include the Pritzker School of Medicine, the Booth School of Business, the Law School, the School of Social Service Administration, the Harris School of Public Policy Studies, the Divinity School and the Graham School of Continuing Liberal and Professional Studies. The university currently enrolls 5,971 undergraduate students, and 16,016 students overall.",
-    "Small image": "uchi_shield",
-    "Large image": "uchi_overview",
+    "Small image name": "uchi_shield.png",
+    "Large image name": "uchi_overview.jpg",
     "Link": "https://en.wikipedia.org/wiki/University_of_Chicago"
   },
   {
@@ -95,8 +95,8 @@
     "Founded": 1855,
     "Country": "Switzerland",
     "Description": "ETH Zurich (Swiss Federal Institute of Technology in Zurich; German: Eidgenössische Technische Hochschule Zürich) is a science, technology, engineering and mathematics STEM university in the city of Zürich, Switzerland. Like its sister institution EPFL, it is an integral part of the Swiss Federal Institutes of Technology Domain (ETH Domain) that is directly subordinate to Switzerland's Federal Department of Economic Affairs, Education and Research. The school was founded by the Swiss Federal Government in 1854 with the stated mission to educate engineers and scientists, serve as a national center of excellence in science and technology and provide a hub for interaction between the scientific community and industry.",
-    "Small image": "eth_zurich_logo",
-    "Large image": "eth_zurich_overview",
+    "Small image name": "eth_zurich_logo.png",
+    "Large image name": "eth_zurich_overview.png",
     "Link": "https://en.wikipedia.org/wiki/ETH_Zurich"
   },
   {
@@ -105,8 +105,8 @@
     "Founded": 1981,
     "Country": "Singapore",
     "Description": "The Nanyang Technological University (Abbreviation: NTU) is an autonomous research university in Singapore. NTU is consistently ranked amongst the world's best universities in all of the major college and university rankings and is regarded as one of the top universities in the world. In the 2018 QS World University Rankings, NTU is ranked 11th in the world and 1st in Asia. NTU is a comprehensive and research-intensive university, with over 33,000 undergraduate and postgraduate students. The University is organized into eight colleges and schools. They are the College of Engineering, College of Science, College of Humanities, Arts and Social Sciences, Nanyang Business School, and the Lee Kong Chian School of Medicine - set up jointly with Imperial College London. NTU is also home to several autonomous institutions including the National Institute of Education, S. Rajaratnam School of International Studies, Interdisciplinary Graduate School, Earth Observatory of Singapore, Singapore Centre on Environmental Life Sciences Engineering, Institute on Asian Consumer Insight, and the College of Professional and Continuing Education. NTU's strongest faculties are in engineering and business. The NTU College of Engineering was ranked 2nd and 4th in the world by both the Academic Ranking of World Universities and QS World University Rankings respectively, and 1st in Singapore. NTU's Nanyang Business School is Singapore's top business school, having emerged 24th globally (1st in Singapore) in the Financial Times ranking and 1st in Singapore for 13 consecutive years in The Economist rankings.",
-    "Small image": "nanyang_technological_university_coat_of_arms",
-    "Large image": "nanyang_technological_university_overview",
+    "Small image name": "nanyang_technological_university_coat_of_arms.png",
+    "Large image name": "nanyang_technological_university_overview.jpg",
     "Link": "https://en.wikipedia.org/wiki/Nanyang_Technological_University"
   },
   {
@@ -115,8 +115,8 @@
     "Founded": 1853,
     "Country": "Switzerland",
     "Description": "The École polytechnique fédérale de Lausanne (EPFL) is a research institute and university in Lausanne, Switzerland, that specializes in natural sciences and engineering. It is one of the two Swiss Federal Institutes of Technology, and it has three main missions: education, research and technology transfer at the highest international level. EPFL is widely regarded as a world leading university. The QS World University Rankings ranks EPFL 12th in the world across all fields in their 2017/2018 ranking, whilst Times Higher Education World University Rankings ranks EPFL as the world's 11th best school for Engineering and Technology. EPFL is located in the French-speaking part of Switzerland; the sister institution in the German-speaking part of Switzerland is the Swiss Federal Institute of Technology in Zurich (ETH Zurich). Associated with several specialised research institutes, the two universities form the Swiss Federal Institutes of Technology Domain (ETH Domain), which is directly dependent on the Federal Department of Economic Affairs, Education and Research. In connection with research and teaching activities, EPFL operates a nuclear reactor CROCUS, a Tokamak Fusion reactor, a Blue Gene/Q Supercomputer and P3 bio-hazard facilities",
-    "Small image": "epfl_logo",
-    "Large image": "epfl_overview",
+    "Small image name": "epfl_logo.png",
+    "Large image name": "epfl_overview.jpg",
     "Link": "https://en.wikipedia.org/wiki/%C3%89cole_Polytechnique_F%C3%A9d%C3%A9rale_de_Lausanne"
   },
   {
@@ -125,8 +125,8 @@
     "Founded": 1746,
     "Country": "U.S.",
     "Description": "Princeton University is a private Ivy League research university in Princeton, New Jersey, United States. Founded in 1746 in Elizabeth as the College of New Jersey, Princeton is the fourth-oldest institution of higher education in the United States and one of the nine colonial colleges chartered before the American Revolution. The institution moved to Newark in 1747, then to the current site nine years later, where it was renamed Princeton University in 1896. Princeton provides undergraduate and graduate instruction in the humanities, social sciences, natural sciences and engineering. It offers professional degrees through the Woodrow Wilson School of Public and International Affairs, the School of Engineering and Applied Science, the School of Architecture and the Bendheim Center for Finance. The university has ties with the Institute for Advanced Study, Princeton Theological Seminary and the Westminster Choir College of Rider University. Princeton has the largest endowment per student in the United States. From 2001 to 2018, Princeton University was ranked either first or second among national universities by U.S. News & World Report, holding the top spot for 16 of those 18 years.",
-    "Small image": "princeton_shield",
-    "Large image": "princeton_overview",
+    "Small image name": "princeton_shield.png",
+    "Large image name": "princeton_overview.jpg",
     "Link": "https://en.wikipedia.org/wiki/Princeton_University"
   },
   {
@@ -135,8 +135,8 @@
     "Founded": 1865,
     "Country": "U.S.",
     "Description": "Cornell University is a private and statutory Ivy League research university located in Ithaca, New York. Founded in 1865 by Ezra Cornell and Andrew Dickson White, the university was intended to teach and make contributions in all fields of knowledge—from the classics to the sciences, and from the theoretical to the applied. These ideals, unconventional for the time, are captured in Cornell's motto, a popular 1865 Ezra Cornell quotation: \"I would found an institution where any person can find instruction in any study.\" The university is broadly organized into seven undergraduate colleges and seven graduate divisions at its main Ithaca campus, with each college and division defining its own admission standards and academic programs in near autonomy. The university also administers two satellite medical campuses, one in New York City and one in Education City, Qatar, and Cornell Tech, a graduate program that incorporates technology, business, and creative thinking. The program moved from Google's Chelsea Building in New York City to its permanent campus on Roosevelt Island in September 2017.",
-    "Small image": "cornell_seal",
-    "Large image": "cornell_overview",
+    "Small image name": "cornell_seal.png",
+    "Large image name": "cornell_overview.jpg",
     "Link": "https://en.wikipedia.org/wiki/Cornell_University"
   },
   {
@@ -145,8 +145,8 @@
     "Founded": 1905,
     "Country": "Singapore",
     "Description": "The National University of Singapore (NUS) is an autonomous research university in Singapore. Founded in 1905 as a medical college, it is the oldest institute of higher learning (IHL) in Singapore, as well as the largest university in the country in terms of student enrollment and curriculum offered. NUS is a comprehensive research university with an entrepreneurial dimension. It offers a wide range of disciplines, including the sciences, medicine and dentistry, design and environment, law, arts and social sciences, engineering, business, computing and music in both undergraduate and postgraduate education. The university counts among its alumni four Prime Ministers or Presidents of Singapore and two Prime Ministers of Malaysia. NUS is ranked 1st in Singapore & the whole of Asia, and 22nd in the world by the 2018 Times Higher Education, and 15th in the world by the 2018 QS World University Rankings. NUS was named the world's 4th (first in Singapore) most international university in a 2017 study by Times Higher Education. In the 2016 Times Higher Education Global Employability University Ranking, an annual ranking of university graduates' employability, NUS was ranked 15th in the world (first in Singapore). NUS is ranked 20th (first in Singapore) in the 2017 CWTS Leiden Ranking, a ranking of the scientific performance of more than 900 universities worldwide.",
-    "Small image": "nus_coat_of_arms",
-    "Large image": "nus_overview",
+    "Small image name": "nus_coat_of_arms.png",
+    "Large image name": "nus_overview.jpg",
     "Link": "https://en.wikipedia.org/wiki/National_University_of_Singapore"
   }
 ]

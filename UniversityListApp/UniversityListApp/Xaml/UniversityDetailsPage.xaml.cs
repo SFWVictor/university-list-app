@@ -1,5 +1,6 @@
 ﻿namespace UniversityListApp
 {
+    using UniversityListApp.Domain;
     using Xamarin.Forms;
     using Xamarin.Forms.Xaml;
 

@@ -8,7 +8,12 @@
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new UniversityListApp.MainPage());
+            NavigationPage navigationPage = new NavigationPage(new UniversityListApp.MainPage())
+            {
+                BarBackgroundColor = Color.Green
+            };
+
+            MainPage = navigationPage;
         }
 
         protected override void OnStart()

@@ -5,11 +5,71 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Images\caltech_overview.png" />
+    <None Remove="Images\caltech_seal.png" />
+    <None Remove="Images\cambridge_overview.jpg" />
+    <None Remove="Images\cambridge_seal.png" />
+    <None Remove="Images\cornell_overview.jpg" />
+    <None Remove="Images\cornell_seal.png" />
+    <None Remove="Images\epfl_logo.png" />
+    <None Remove="Images\epfl_overview.jpg" />
+    <None Remove="Images\eth_zurich_logo.png" />
+    <None Remove="Images\eth_zurich_overview.png" />
+    <None Remove="Images\harvard_overview.jpg" />
+    <None Remove="Images\harvard_seal.png" />
+    <None Remove="Images\imperial_college_crest.png" />
+    <None Remove="Images\imperial_college_overview.jpg" />
+    <None Remove="Images\mit_overview.jpg" />
+    <None Remove="Images\mit_seal.png" />
+    <None Remove="Images\nanyang_technological_university_coat_of_arms.png" />
+    <None Remove="Images\nanyang_technological_university_overview.jpg" />
+    <None Remove="Images\nus_coat_of_arms.png" />
+    <None Remove="Images\nus_overview.jpg" />
+    <None Remove="Images\oxford_coat_of_arms.png" />
+    <None Remove="Images\oxford_overview.jpg" />
+    <None Remove="Images\princeton_overview.jpg" />
+    <None Remove="Images\princeton_shield.png" />
+    <None Remove="Images\stanford_overview.jpg" />
+    <None Remove="Images\stanford_seal.png" />
+    <None Remove="Images\uchi_overview.jpg" />
+    <None Remove="Images\uchi_shield.png" />
+    <None Remove="Images\ucl_logo.jpg" />
+    <None Remove="Images\ucl_overview.jpg" />
     <None Remove="universities.json" />
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Include="universities.json" />
+    <EmbeddedResource Include="Data\universities.json" />
+    <EmbeddedResource Include="Images\caltech_overview.png" />
+    <EmbeddedResource Include="Images\caltech_seal.png" />
+    <EmbeddedResource Include="Images\cambridge_overview.jpg" />
+    <EmbeddedResource Include="Images\cambridge_seal.png" />
+    <EmbeddedResource Include="Images\cornell_overview.jpg" />
+    <EmbeddedResource Include="Images\cornell_seal.png" />
+    <EmbeddedResource Include="Images\epfl_logo.png" />
+    <EmbeddedResource Include="Images\epfl_overview.jpg" />
+    <EmbeddedResource Include="Images\eth_zurich_logo.png" />
+    <EmbeddedResource Include="Images\eth_zurich_overview.png" />
+    <EmbeddedResource Include="Images\harvard_overview.jpg" />
+    <EmbeddedResource Include="Images\harvard_seal.png" />
+    <EmbeddedResource Include="Images\imperial_college_crest.png" />
+    <EmbeddedResource Include="Images\imperial_college_overview.jpg" />
+    <EmbeddedResource Include="Images\mit_overview.jpg" />
+    <EmbeddedResource Include="Images\mit_seal.png" />
+    <EmbeddedResource Include="Images\nanyang_technological_university_coat_of_arms.png" />
+    <EmbeddedResource Include="Images\nanyang_technological_university_overview.jpg" />
+    <EmbeddedResource Include="Images\nus_coat_of_arms.png" />
+    <EmbeddedResource Include="Images\nus_overview.jpg" />
+    <EmbeddedResource Include="Images\oxford_coat_of_arms.png" />
+    <EmbeddedResource Include="Images\oxford_overview.jpg" />
+    <EmbeddedResource Include="Images\princeton_overview.jpg" />
+    <EmbeddedResource Include="Images\princeton_shield.png" />
+    <EmbeddedResource Include="Images\stanford_overview.jpg" />
+    <EmbeddedResource Include="Images\stanford_seal.png" />
+    <EmbeddedResource Include="Images\uchi_overview.jpg" />
+    <EmbeddedResource Include="Images\uchi_shield.png" />
+    <EmbeddedResource Include="Images\ucl_logo.jpg" />
+    <EmbeddedResource Include="Images\ucl_overview.jpg" />
   </ItemGroup>
 
   <ItemGroup>
@@ -18,19 +78,19 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="App.xaml.cs">
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Xaml\App.xaml.cs">
       <DependentUpon>*.xaml</DependentUpon>
     </Compile>
-    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="MainPage.xaml.cs">
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Xaml\MainPage.xaml.cs">
       <DependentUpon>*.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Update="UniversityDetailsPage.xaml">
+    <EmbeddedResource Update="Xaml\UniversityDetailsPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="UniversityViewCell.xaml">
+    <EmbeddedResource Update="Xaml\UniversityViewCell.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>
