@@ -22,7 +22,7 @@
         {
             var viewModels = new List<UniversityViewModel>();
             var objects = FetchData();
-            objects.ForEach((o) => { viewModels.Add(new UniversityViewModel(o)); });
+            objects.ForEach((o) => { viewModels.Add(new UniversityViewModel(o) { ImagePath = ImagePath }); });
             return viewModels;
         }
 
