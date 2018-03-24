@@ -35,6 +35,7 @@
         private async void ListViewUniversities_ItemTapped(object sender, ItemTappedEventArgs e)
         {
             var selectedObject = ((ListView)sender).SelectedItem;
+            ((ListView)sender).SelectedItem = null;
 
             var uniDetailsPage = new UniversityDetailsPage
             {

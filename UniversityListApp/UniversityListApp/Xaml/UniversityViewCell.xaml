@@ -3,7 +3,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:UniversityListApp.Extensions"
              x:Class="UniversityListApp.UniversityViewCell"
-             Height="100">
+             xmlns:controls="clr-namespace:UniversityListApp.Controls"
+             Height="110">
     <ViewCell.View>
         <StackLayout BackgroundColor="#eee" Margin="10"
                      Orientation="Horizontal">
@@ -14,8 +15,12 @@
                        TextColor="Black"/>
                 <Label Text="{Binding Country}"
                        TextColor="Black"/>
-                <Label Text="{Binding Description}"
-                       TextColor="Black" LineBreakMode="TailTruncation"/>
+                <controls:MultiLineLabel 
+                        Text="{Binding Description}"
+			            VerticalOptions="Center"
+			            LineBreakMode="TailTruncation"
+			            Lines="2"
+			            Margin="0"/>
             </StackLayout>
         </StackLayout>
     </ViewCell.View>
