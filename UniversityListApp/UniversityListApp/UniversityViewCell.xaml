@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ViewCell xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="UniversityListApp.UniversityViewCell"
+            Height="100">
+    <ViewCell.View>
+        <StackLayout BackgroundColor="#eee"
+                     Orientation="Horizontal">
+            <!--<ImageCell>
+
+            </ImageCell>-->
+            <BoxView Color="Blue" Margin="5" WidthRequest="100" HeightRequest="80"/>
+            <StackLayout Orientation="Vertical"
+                         VerticalOptions="FillAndExpand">
+                <Label Text="{Binding Name}"
+                       TextColor="Black"/>
+                <Label Text="{Binding Country}"
+                       TextColor="Black"/>
+                <Label Text="{Binding Description}"
+                       TextColor="Black" LineBreakMode="TailTruncation"/>
+            </StackLayout>
+        </StackLayout>
+    </ViewCell.View>
+</ViewCell>

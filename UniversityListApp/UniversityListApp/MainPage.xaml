@@ -8,30 +8,21 @@
     <StackLayout Orientation="Vertical">
         <Label HorizontalOptions="Center"
            Text = "University list"/>
-        <StackLayout Orientation="Vertical"
+        <ScrollView>
+            <StackLayout Orientation="Vertical"
                      VerticalOptions="FillAndExpand">
-            <ListView x:Name="ListViewUniversities"
-              ItemTapped="ListViewUniversities_ItemTapped">
-                <ListView.ItemTemplate>
-                    <DataTemplate>
-                        <ViewCell>
-                            <StackLayout BackgroundColor="#eee"
-						Orientation="Horizontal">
-                                <!--<ImageCell>
+                <ListView x:Name="ListViewUniversities"
+                          ItemTapped="ListViewUniversities_ItemTapped"
+                          HasUnevenRows="True"
+                          VerticalOptions="FillAndExpand">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <local:UniversityViewCell/>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackLayout>
+        </ScrollView>
 
-                        </ImageCell>-->
-                                <StackLayout Orientation="Vertical"
-                                         VerticalOptions="FillAndExpand">
-                                    <Label Text="{Binding Name}"
-								TextColor="#f35e20" />
-                                    <Label Text="{Binding Country}"
-								TextColor="#503026" />
-                                </StackLayout>
-                            </StackLayout>
-                        </ViewCell>
-                    </DataTemplate>
-                </ListView.ItemTemplate>
-            </ListView>
-        </StackLayout>
     </StackLayout>
 </ContentPage>
