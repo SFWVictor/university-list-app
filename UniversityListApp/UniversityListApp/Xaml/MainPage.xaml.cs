@@ -9,7 +9,7 @@
     public partial class MainPage : ContentPage
     {
         public const string ImagePath = "UniversityListApp.Images.";
-        private const string JsonFileName = "Data.universities.json";
+        private const string JsonFileName = "Resources.universities.json";
 
         public MainPage()
         {
