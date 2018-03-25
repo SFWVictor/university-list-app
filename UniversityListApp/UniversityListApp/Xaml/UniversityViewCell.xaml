@@ -6,21 +6,21 @@
              xmlns:controls="clr-namespace:UniversityListApp.Controls"
              Height="110">
     <ViewCell.View>
-        <StackLayout BackgroundColor="#eee" Margin="10"
+        <StackLayout BackgroundColor="White" Margin="10"
                      Orientation="Horizontal">
-            <Image Source="{Binding SmallImage}" WidthRequest="80" HeightRequest="380" />
+            <Image Source="{Binding SmallImage}" WidthRequest="80" HeightRequest="380"/>
             <StackLayout Orientation="Vertical"
                          VerticalOptions="FillAndExpand">
                 <Label Text="{Binding Name}"
-                       TextColor="Black"/>
+                       TextColor="Black"
+                       LineBreakMode="TailTruncation"/>
                 <Label Text="{Binding Country}"
                        TextColor="Black"/>
                 <controls:MultiLineLabel 
                         Text="{Binding Description}"
 			            VerticalOptions="Center"
 			            LineBreakMode="TailTruncation"
-			            Lines="2"
-			            Margin="0"/>
+			            Lines="2"/>
             </StackLayout>
         </StackLayout>
     </ViewCell.View>

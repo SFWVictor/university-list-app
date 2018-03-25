@@ -39,7 +39,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Include="Data\universities.json" />
+    <EmbeddedResource Include="Resources\universities.json" />
     <EmbeddedResource Include="Images\caltech_overview.png" />
     <EmbeddedResource Include="Images\caltech_seal.png" />
     <EmbeddedResource Include="Images\cambridge_overview.jpg" />
@@ -73,7 +73,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Newtonsoft.Json" Version="11.0.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
     <PackageReference Include="Xamarin.Forms" Version="2.5.0.280555" />
   </ItemGroup>
 

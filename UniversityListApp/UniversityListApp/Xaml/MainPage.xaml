@@ -4,12 +4,12 @@
              xmlns:local="clr-namespace:UniversityListApp"
              x:Class="UniversityListApp.MainPage"
              x:Name="MainPageContent"
-              Title="University list">
-
+             Title="University list"
+             BackgroundColor="White"> 
     <ListView x:Name="ListViewUniversities"
-                          ItemTapped="ListViewUniversities_ItemTapped"
-                          HasUnevenRows="True"
-                          VerticalOptions="FillAndExpand">
+              ItemTapped="ListViewUniversities_ItemTapped"
+              HasUnevenRows="True"
+              VerticalOptions="FillAndExpand">
         <ListView.ItemTemplate>
             <DataTemplate>
                 <local:UniversityViewCell/>
